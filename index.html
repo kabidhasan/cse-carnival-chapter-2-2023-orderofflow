@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="index.css" />
+    
+</head>
+
+<body>
+    <div class="landing-page">
+        <main class="body4">
+            <div class="our-experts3">
+                <b class="view-courses" data-scroll-to="ourExpertsText">Our Experts</b>
+                <div class="our-experts-inner">
+                    <div class="ellipse-parent">
+                        <img class="frame-inner" alt="" src="./public/ellipse-4@2x.png" />
+
+                        <div class="sarah-han">Sarah han</div>
+                        <div class="ielts-expert">IELTS Expert</div>
+                        <div class="bangladesh">Bangladesh</div>
+                    </div>
+                </div>
+            </div>
+            <div class="frame">
+                <div class="our-services3">
+                    <div class="our-services4" data-scroll-to="ourServicesText">
+                        Our Services
+                    </div>
+                    <div class="paper-rev">
+                        <img class="paper-rev-child" alt="" src="./public/ellipse-1@2x.png" />
+
+                        <div class="body-pr">
+                            <div class="paper-review">Paper Review</div>
+                            <div class="lorem-ipsum-dolor">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                                facilisis est non ornare vulputate.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="crash-course1">
+                        <div class="body-cc">
+                            <div class="crash-courses">Crash Courses</div>
+                            <div class="lorem-ipsum-dolor1">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                                facilisis est non ornare vulputate.
+                            </div>
+                            <div class="course-bttn" id="courseBttnContainer">
+                                <div class="view-courses">View Courses</div>
+                            </div>
+                        </div>
+                        <img class="paper-rev-child" alt="" src="./public/ellipse-2@2x.png" />
+                    </div>
+                    <div class="one-time-service">
+                        <img class="one-time-service-child" alt="" src="./public/ellipse-3@2x.png" />
+
+                        <div class="body-ots">
+                            <div class="one-time-session">One Time Session</div>
+                            <div class="lorem-ipsum-dolor2">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                                facilisis est non ornare vulputate.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="visa-pros">
+                        <div class="body-vp">
+                            <div class="crash-courses">Vissa Processing</div>
+                            <div class="lorem-ipsum-dolor3">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                                facilisis est non ornare vulputate.
+                            </div>
+                            <div class="course-bttn">
+                                <div class="view-courses">Know How</div>
+                            </div>
+                        </div>
+                        <img class="paper-rev-child" alt="" src="./public/ellipse-2@2x.png" />
+                    </div>
+                </div>
+                <div class="about-us3" data-scroll-to="aboutUs">
+                    <div class="about-us-body">
+                        <div class="about-us4">About Us</div>
+                        <div class="lorem-ipsum-dolor4">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                            facilisis est non ornare vulputate. Nulla ac sodales dui, quis
+                            interdum dui. Proin tempus dapibus risus, eu consequat velit
+                            tincidunt id. Ut erat ligula, rhoncus a mollis sit amet,
+                            lobortis in turpis. Integer a tellus fermentum, vehicula ligula
+                            feugiat, cursus massa. Pellentesque quis
+                        </div>
+                        <div class="bttn">
+                            <div class="login-bttn1" id="loginBttnContainer">
+                                <div class="view-courses">Login</div>
+                            </div>
+                            <div class="sign-up-bttn2" id="signUpBttnContainer">
+                                <div class="view-courses">Sign Up</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo-body">
+                    <img class="removal-1-icon4" alt="" src="./public/removal-11@2x.png" />
+
+                    <div class="view-courses">ReachOut!</div>
+                    <div class="connect-with-experts">Connect with Experts</div>
+                </div>
+            </div>
+        </main>
+        <header class="nav-l" id="nav_L">
+            <div class="link">
+                <div class="about-us5" id="aboutUsText1">About Us</div>
+                <div class="about-us5" id="ourServicesText1">Our Services</div>
+                <div class="about-us5" id="ourExpertsText1">Our Experts</div>
+            </div>
+        </header>
+    </div>
+
+    <div id="frameContainer" class="popup-overlay" style="display: none">
+        <div class="gre-crash-course-parent">
+            <div class="gre-crash-course">GRE Crash Course</div>
+            <div class="ielts-crash-course-container">
+                <span>IELTS</span>
+                <span class="crash-course"> Crash Course</span>
+            </div>
+            <div class="toefl-crash-course">TOEFL Crash Course</div>
+            <div class="sat-crasg-course">SAT Crasg Course</div>
+        </div>
+    </div>
+
+    <div id="frameContainer" class="popup-overlay" style="display: none">
+        <div class="frame-parent">
+            <button class="rectangle-parent" id="popupframeButton">
+                <div class="frame-child"></div>
+                <div class="as-consultant">AS CONSULTANT</div>
+            </button>
+            <button class="rectangle-group" id="popupframeButton1">
+                <div class="frame-child"></div>
+                <div class="as-client">AS CLIENT</div>
+            </button>
+        </div>
+    </div>
+
+    <script>
+        var popupframeButton = document.getElementById("popupframeButton");
+        if (popupframeButton) {
+            popupframeButton.addEventListener("click", function (e) {
+                window.location.href = "./sign-up-expert.html";
+            });
+        }
+
+        var popupframeButton1 = document.getElementById("popupframeButton1");
+        if (popupframeButton1) {
+            popupframeButton1.addEventListener("click", function (e) {
+                window.location.href = "./sign-up-user.html";
+            });
+        }
+
+        var courseBttnContainer = document.getElementById("courseBttnContainer");
+        if (courseBttnContainer) {
+            courseBttnContainer.addEventListener("click", function () {
+                var popup = document.getElementById("frameContainer");
+                if (!popup) return;
+                var popupStyle = popup.style;
+                if (popupStyle) {
+                    popupStyle.display = "flex";
+                    popupStyle.zIndex = 100;
+                    popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+                    popupStyle.alignItems = "center";
+                    popupStyle.justifyContent = "center";
+                }
+                popup.setAttribute("closable", "");
+
+                var onClick =
+                    popup.onClick ||
+                    function (e) {
+                        if (e.target === popup && popup.hasAttribute("closable")) {
+                            popupStyle.display = "none";
+                        }
+                    };
+                popup.addEventListener("click", onClick);
+            });
+        }
+
+        var loginBttnContainer = document.getElementById("loginBttnContainer");
+        if (loginBttnContainer) {
+            loginBttnContainer.addEventListener("click", function (e) {
+                window.location.href = "./login.html";
+            });
+        }
+
+        var signUpBttnContainer = document.getElementById("signUpBttnContainer");
+        if (signUpBttnContainer) {
+            signUpBttnContainer.addEventListener("click", function () {
+                var popup = document.getElementById("frameContainer");
+                if (!popup) return;
+                var popupStyle = popup.style;
+                if (popupStyle) {
+                    popupStyle.display = "flex";
+                    popupStyle.zIndex = 100;
+                    popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+                    popupStyle.alignItems = "center";
+                    popupStyle.justifyContent = "center";
+                }
+                popup.setAttribute("closable", "");
+
+                var onClick =
+                    popup.onClick ||
+                    function (e) {
+                        if (e.target === popup && popup.hasAttribute("closable")) {
+                            popupStyle.display = "none";
+                        }
+                    };
+                popup.addEventListener("click", onClick);
+            });
+        }
+
+        var aboutUsText1 = document.getElementById("aboutUsText1");
+        if (aboutUsText1) {
+            aboutUsText1.addEventListener("click", function () {
+                var anchor = document.querySelector("[data-scroll-to='aboutUs']");
+                if (anchor) {
+                    anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+                }
+            });
+        }
+
+        var ourServicesText1 = document.getElementById("ourServicesText1");
+        if (ourServicesText1) {
+            ourServicesText1.addEventListener("click", function () {
+                var anchor = document.querySelector("[data-scroll-to='ourServicesText']");
+                if (anchor) {
+                    anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+                }
+            });
+        }
+
+        var ourExpertsText1 = document.getElementById("ourExpertsText1");
+        if (ourExpertsText1) {
+            ourExpertsText1.addEventListener("click", function () {
+                var anchor = document.querySelector("[data-scroll-to='ourExpertsText']");
+                if (anchor) {
+                    anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
