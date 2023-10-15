@@ -1,0 +1,135 @@
+.client-name {
+    position: relative;
+    font-weight: 500;
+}
+
+.head-tabl2 {
+    background-color: var(--color-gray-500);
+    backdrop-filter: blur(30px);
+    border-bottom: 1.5px solid var(--color-firebrick-100);
+    box-sizing: border-box;
+    width: 1181px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: var(--padding-lg) var(--padding-15xl);
+    font-size: var(--font-size-5xl);
+}
+
+.appoinment-id5 {
+    position: relative;
+}
+
+.appointment-list2,
+.row6 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.row6 {
+    border-bottom: 1.5px solid var(--color-firebrick-100);
+    box-sizing: border-box;
+    width: 1181px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: var(--padding-lg) var(--padding-15xl);
+}
+
+.appointment-list2 {
+    position: absolute;
+    top: 165px;
+    left: 108px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-4xs);
+}
+
+.appointments7 {
+    position: absolute;
+    top: 65px;
+    left: 108px;
+    font-size: var(--font-size-21xl);
+    font-weight: 500;
+}
+
+.body13 {
+    position: absolute;
+    top: 86px;
+    left: 23px;
+    width: 1397px;
+    height: 579px;
+    overflow: hidden;
+}
+
+.removal-1-icon13 {
+    position: relative;
+    width: 69px;
+    height: 62px;
+    object-fit: cover;
+}
+
+.reachout13 {
+    position: relative;
+    display: inline-block;
+    width: 137px;
+    height: 27px;
+    flex-shrink: 0;
+}
+
+.icon12 {
+    width: 206px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.find-expertise7 {
+    position: relative;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.links12,
+.navbar7 {
+    display: flex;
+    flex-direction: row;
+}
+
+.links12 {
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--gap-81xl);
+    font-size: var(--font-size-5xl);
+    color: var(--color-gray-200);
+    font-family: var(--font-roboto);
+}
+
+.navbar7 {
+    position: absolute;
+    top: 0;
+    left: 24px;
+    width: 1392px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-8xs) 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-11xl);
+    color: var(--color-firebrick-100);
+    font-family: var(--font-squada-one);
+}
+
+.expert-appointmentlist {
+    position: relative;
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 665px;
+    text-align: left;
+    font-size: var(--font-size-2xl);
+    color: var(--color-black);
+    font-family: var(--font-roboto-slab);
+}
